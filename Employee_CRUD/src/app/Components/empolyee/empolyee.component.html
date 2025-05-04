@@ -1,0 +1,60 @@
+<div class="employee-card hover-effect rounded-4 shadow-lg bg-white position-relative overflow-hidden mx-3 my-4 border border-light-subtle transform-hover">
+    <!-- Status Badge -->
+    <div class="position-absolute top-0 end-0 mt-3 me-3">
+        <span class="badge bg-success-subtle text-success-emphasis rounded-pill px-3 py-2 fw-medium">
+            <i class="fas fa-circle-dot me-2 animate-pulse"></i>Active
+        </span>
+    </div>
+
+    <!-- Employee Header -->
+    <div class="employee-header d-flex align-items-center p-4 border-bottom">
+        <div class="employee-avatar d-flex justify-content-center align-items-center bg-gradient-primary rounded-3 shadow-lg animate-presence">
+            <h4 class="text-light fw-bold mb-0 user-select-none">
+                {{employee.firstName.charAt(0) + employee.lastName.charAt(0)}}
+            </h4>
+        </div>
+        <div class="ms-4 flex-grow-1">
+            <h5 class="employee-name mb-2 fw-bold text-dark text-opacity-75">{{employee.firstName}} {{employee.lastName}}</h5>
+            <p class="employee-position mb-0 text-muted d-flex align-items-center">
+                <i class="fas fa-briefcase me-2 text-primary opacity-75"></i>
+                <span>{{employee.position}}</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- Employee Details -->
+    <div class="employee-details p-4 bg-gradient-light">
+        <div class="details-container bg-white rounded-3 p-3 shadow-sm">
+            <div class="detail-item">
+                <div class="icon-container bg-primary bg-opacity-10 rounded-3 p-3">
+                    <i class="fa-solid fa-id-card-clip text-primary"></i>
+                </div>
+                <div class="detail-content">
+                    <span class="detail-label">Employee ID</span>
+                    <p class="detail-value">{{employee.id}}</p>
+                </div>
+            </div>
+
+            <div class="detail-item flex-grow-1">
+                <div class="icon-container bg-primary bg-opacity-10 rounded-3 p-3">
+                    <i class="fa-solid fa-envelope text-primary"></i>
+                </div>
+                <div class="detail-content">
+                    <span class="detail-label">Email</span>
+                    <a href="mailto:{{employee.email}}" class="detail-value email-link">
+                        {{employee.email}}
+                    </a>
+                </div>
+            </div>
+
+            <div class="action-buttons d-flex gap-2">
+                <button class="btn btn-light-primary btn-sm px-5  py-2 mx-2 rounded-3 hover-scale" [routerLink]="['/edit', employee.id]">
+                  Edit  <i class="fa-solid fa-pen-to-square ms-2"></i>
+                </button>
+                <button class="btn btn-light-danger btn-sm px-5 mx-2 py-2 rounded-3 hover-scale" (click)="DeleteEmployee(employee.id)">
+                   Delete <i class="fa-solid fa-trash-can ms-2"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

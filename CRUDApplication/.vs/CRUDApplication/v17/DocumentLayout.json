@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC6839C-AB4E-4191-8C4E-DDA8E2184FB7}|CRUDApplication.APIs\\CRUDApplication.APIs.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5AC6839C-AB4E-4191-8C4E-DDA8E2184FB7}|CRUDApplication.APIs\\CRUDApplication.APIs.csproj|solutionrelative:crudapplication.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC6839C-AB4E-4191-8C4E-DDA8E2184FB7}|CRUDApplication.APIs\\CRUDApplication.APIs.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.apis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AC6839C-AB4E-4191-8C4E-DDA8E2184FB7}|CRUDApplication.APIs\\CRUDApplication.APIs.csproj|solutionrelative:crudapplication.apis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.bl\\managers\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|solutionrelative:crudapplication.bl\\managers\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.bl\\managers\\iemployeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|solutionrelative:crudapplication.bl\\managers\\iemployeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.bl\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|solutionrelative:crudapplication.bl\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AC6839C-AB4E-4191-8C4E-DDA8E2184FB7}|CRUDApplication.APIs\\CRUDApplication.APIs.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AC6839C-AB4E-4191-8C4E-DDA8E2184FB7}|CRUDApplication.APIs\\CRUDApplication.APIs.csproj|solutionrelative:crudapplication.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\dataaccessextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\dataaccessextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.bl\\businessextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C64BF25-D6DE-47CB-9DEB-11D4BAD8AF54}|CRUDApplication.BL\\CRUDApplication.BL.csproj|solutionrelative:crudapplication.bl\\businessextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\context\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\context\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\crudapplication.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\crudapplication.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|d:\\iti 4 month\\employeemanagementsystem\\crudapplication\\crudapplication.dal\\migrations\\20250430152020_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD6857C-9BA3-4B27-B4D2-8E0CA950C1C9}|CRUDApplication.DAL\\CRUDApplication.DAL.csproj|solutionrelative:crudapplication.dal\\migrations\\20250430152020_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.APIs\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.APIs\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.APIs\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CRUDApplication.APIs\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAcwJ4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:17:20.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "CRUDApplication.DAL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEMAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:41:31.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\Managers\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.BL\\Managers\\EmployeeManager.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\Managers\\EmployeeManager.cs",
+              "RelativeToolTip": "CRUDApplication.BL\\Managers\\EmployeeManager.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAIEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:04:15.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.BL\\DTOs\\EmployeeDTO.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "CRUDApplication.BL\\DTOs\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:02:02.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUDApplication.APIs\\appsettings.json",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.APIs\\appsettings.json",
+              "RelativeToolTip": "CRUDApplication.APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T15:20:41.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeManager.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\Managers\\IEmployeeManager.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.BL\\Managers\\IEmployeeManager.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\Managers\\IEmployeeManager.cs",
+              "RelativeToolTip": "CRUDApplication.BL\\Managers\\IEmployeeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:04:49.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "CRUDApplication.DAL\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:41:58.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250430152020_InitialCreate.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Migrations\\20250430152020_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\Migrations\\20250430152020_InitialCreate.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Migrations\\20250430152020_InitialCreate.cs",
+              "RelativeToolTip": "CRUDApplication.DAL\\Migrations\\20250430152020_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:20:20.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.APIs\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.APIs\\Program.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.APIs\\Program.cs",
+              "RelativeToolTip": "CRUDApplication.APIs\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:14:15.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BusinessExtensions.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\BusinessExtensions.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.BL\\BusinessExtensions.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.BL\\BusinessExtensions.cs",
+              "RelativeToolTip": "CRUDApplication.BL\\BusinessExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:11:46.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataAccessExtensions.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\DataAccessExtensions.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\DataAccessExtensions.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\DataAccessExtensions.cs",
+              "RelativeToolTip": "CRUDApplication.DAL\\DataAccessExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:39:53.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Context\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\Context\\ApplicationContext.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Context\\ApplicationContext.cs",
+              "RelativeToolTip": "CRUDApplication.DAL\\Context\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:25:40.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\Model\\Employee.cs",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\Model\\Employee.cs",
+              "RelativeToolTip": "CRUDApplication.DAL\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T13:56:08.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CRUDApplication.DAL.csproj",
+              "DocumentMoniker": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\CRUDApplication.DAL.csproj",
+              "RelativeDocumentMoniker": "CRUDApplication.DAL\\CRUDApplication.DAL.csproj",
+              "ToolTip": "D:\\ITI 4 month\\EmployeeManagementSystem\\CRUDApplication\\CRUDApplication.DAL\\CRUDApplication.DAL.csproj",
+              "RelativeToolTip": "CRUDApplication.DAL\\CRUDApplication.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T13:55:35.716Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

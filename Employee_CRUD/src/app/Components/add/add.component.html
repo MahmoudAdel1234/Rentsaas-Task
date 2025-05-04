@@ -1,0 +1,60 @@
+<section class="container px-4 mt-4 mb-3 form-container">
+    <div class="card shadow rounded-4 border-0">
+        <div class="card-header bg-primary text-white rounded-top-4">
+            <h3 class="mb-0 fw-bold">
+                <i class="fas fa-user-plus me-2"></i> Add Employee
+            </h3>
+        </div>
+        <div class="card-body py-4">
+            <form [formGroup]="AddEmployee" (ngSubmit)="onSubmit(AddEmployee)">
+                <div class="form-group mb-4">
+                    <label for="firstName" class="form-label fw-semibold mb-2">First Name</label>
+                    <div class="input-group input-with-icon shadow-sm bg-light rounded-3">
+                        <span class="input-group-text bg-transparent border-0">
+              <i class="fas fa-user icon-primary"></i>
+            </span>
+                        <input type="text" class="form-control border-0 bg-transparent py-2" formControlName="firstName" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                    </div>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label for="lastName" class="form-label fw-semibold mb-2">Last Name</label>
+                    <div class="input-group input-with-icon shadow-sm bg-light rounded-3">
+                        <span class="input-group-text bg-transparent border-0">
+              <i class="fas fa-user-tag icon-primary"></i>
+            </span>
+                        <input type="text" class="form-control border-0 bg-transparent py-2" formControlName="lastName" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                    </div>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label for="email" class="form-label fw-semibold mb-2">Email Address</label>
+                    <div class="input-group input-with-icon shadow-sm bg-light rounded-3">
+                        <span class="input-group-text bg-transparent border-0">
+              <i class="fas fa-envelope icon-primary"></i>
+            </span>
+                        <input type="email" class="form-control border-0 bg-transparent py-2" formControlName="email" id="email" name="email" placeholder="name@example.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label for="position" class="form-label fw-semibold mb-2">Position</label>
+                    <div class="input-group input-with-icon shadow-sm bg-light rounded-3">
+                        <span class="input-group-text bg-transparent border-0">
+              <i class="fas fa-briefcase icon-primary"></i>
+            </span>
+                        <input type="text" class="form-control border-0 bg-transparent py-2" formControlName="position" id="position" name="position" placeholder="Enter your position" required>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-2 mt-4">
+                    <button type="submit" class="btn btn-gradient rounded-5 fw-bold py-2">
+                         <i class="fa-solid fa-plus me-2"></i> ADD
+                    </button>
+                    <p class="text-primary text-center my-2 pointer" routerLink="/display-all"> Go Home <i class="fa-solid fa-arrow-right ms-2"></i> </p>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</section>

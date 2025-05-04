@@ -1,0 +1,38 @@
+<nav
+    class="navbar navbar-expand-sm navbar-dark bg-primary"
+>
+    <div class="container">
+        <a class="navbar-brand fs-3 fw-medium" routerLink="/display-all">EMS</a>
+        <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mx-5 mt-2 mt-lg-0 text-center">
+                <li class="nav-item mx-md-2 my-auto">
+                    
+                    <a class="nav-link" routerLink="/display-all" routerLinkActive="bg-white rounded-pill px-3 py-1 text-primary fw-medium" aria-current="page">
+                        <i class="fa-solid fa-house me-1"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item mx-md-2 my-auto ">
+                    <a class="nav-link" routerLink="/add" routerLinkActive="bg-white rounded-pill px-3 py-1 text-primary fw-medium">
+                        <i class="fa-solid fa-user-plus me-1"></i>
+                        Add Employee
+                    </a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </div>
+</nav>

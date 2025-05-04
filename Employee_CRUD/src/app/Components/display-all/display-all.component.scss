@@ -1,0 +1,332 @@
+.main-container {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 3rem;
+    
+    h1 {
+        background: linear-gradient(135deg, #2193b0, #6dd5ed);
+        color: white;
+        padding: 1.5rem;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        
+        i {
+            margin-right: 1rem;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.controls-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-wrapper {
+    flex: 1;
+    max-width: 500px;
+}
+
+.search-bar {
+    position: relative;
+    
+    input {
+        width: 100%;
+        padding: 1rem 1rem 1rem 3rem;
+        border-radius: 50px;
+        border: 2px solid #eee;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+        
+        &:focus {
+            outline: none;
+            border-color: #2193b0;
+            box-shadow: 0 0 0 4px rgba(33, 147, 176, 0.1);
+        }
+        
+        &::placeholder {
+            color: #aaa;
+        }
+    }
+    
+    i {
+        position: absolute;
+        left: 1.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #2193b0;
+        font-size: 1.1rem;
+    }
+}
+
+.btn-add {
+    background: #2193b0;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+    &:hover {
+        background: darken(#2193b0, 10%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(33, 147, 176, 0.3);
+    }
+    
+    i {
+        font-size: 1.1rem;
+    }
+}
+
+.employees-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.pagination-wrapper {
+    margin-top: 3rem;
+    
+    ::ng-deep {
+        .ngx-pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0;
+            
+            li {
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+                
+                &.current {
+                    background: #2193b0;
+                    box-shadow: 0 2px 8px rgba(33, 147, 176, 0.3);
+                }
+                
+                &:hover:not(.current) {
+                    background: rgba(33, 147, 176, 0.1);
+                }
+                
+                a {
+                    padding: 0.5rem;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .controls-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-wrapper {
+        max-width: 100%;
+    }
+    
+    .btn-add {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.dashboard-container {
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.search-wrapper {
+    flex: 1;
+    max-width: 600px;
+}
+
+.search-input-container {
+    position: relative;
+    
+    .search-input {
+        width: 100%;
+        padding: 1rem 1rem 1rem 3rem;
+        border-radius: 12px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.9);
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        
+        &:focus {
+            outline: none;
+            border-color: #6366f1;
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+        }
+    }
+    
+    .search-icon {
+        position: absolute;
+        left: 1.2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #6366f1;
+        font-size: 1.1rem;
+    }
+}
+
+.gradient-btn {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+    }
+    
+    i {
+        font-size: 1.2rem;
+    }
+}
+
+.dashboard-content {
+    margin: 2rem 0;
+}
+
+// .employees-grid {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+//     gap: 2rem;
+//     padding: 1rem;
+// }
+
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 500px;
+    
+    i {
+        font-size: 4rem;
+        color: #6366f1;
+        margin-bottom: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        color: #1f2937;
+        margin-bottom: 0.5rem;
+    }
+    
+    p {
+        color: #6b7280;
+        margin-bottom: 2rem;
+    }
+}
+
+.pagination-section {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    
+    ::ng-deep {
+        .ngx-pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0;
+            margin: 0;
+            
+            li {
+                border-radius: 10px;
+                min-width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.3s ease;
+                
+                &.current {
+                    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+                    color: white;
+                    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+                }
+                
+                a {
+                    padding: 0.8rem;
+                    color: #4b5563;
+                    border-radius: 10px;
+                    
+                    &:hover {
+                        background: rgba(99, 102, 241, 0.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 1rem;
+    }
+    
+    .dashboard-header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .search-wrapper {
+        width: 100%;
+    }
+    
+    .gradient-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .employees-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

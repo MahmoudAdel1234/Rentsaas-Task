@@ -1,0 +1,15 @@
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\bin\Debug\net8.0\CRUDApplication.DAL.deps.json
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\bin\Debug\net8.0\CRUDApplication.DAL.runtimeconfig.json
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\bin\Debug\net8.0\CRUDApplication.DAL.dll
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\bin\Debug\net8.0\CRUDApplication.DAL.pdb
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.csproj.AssemblyReference.cache
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.AssemblyInfoInputs.cache
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.AssemblyInfo.cs
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.csproj.CoreCompileInputs.cache
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.dll
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\refint\CRUDApplication.DAL.dll
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.pdb
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.genruntimeconfig.cache
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\ref\CRUDApplication.DAL.dll
+D:\ITI 4 month\API\Labs\CRUDApplication\CRUDApplication.DAL\obj\Debug\net8.0\CRUDApplication.DAL.sourcelink.json

@@ -1,0 +1,61 @@
+<div class="dashboard-container">
+    <header class="dashboard-header glass-effect">
+        <div class="search-wrapper">
+            <div class="search-input-container">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input 
+                    type="text" 
+                    placeholder="Search employees..." 
+                    #searchInput 
+                    (input)="searchForEmployee(searchInput.value)"
+                    class="search-input"
+                >
+            </div>
+        </div>
+
+        <button class="add-btn gradient-btn" routerLink="/add">
+            <i class="fa-solid fa-user-plus"></i>
+            <span>Add New Employee</span>
+        </button>
+    </header>
+
+    <main class="dashboard-content row">
+        <div class="col-sm-12 " *ngIf="employees && employees.length > 0">
+            <div class="employee-card-wrapper" *ngFor="let emp of employees| paginate: { 
+                id: 'EmpPaginate',
+                itemsPerPage: pageSize || 4,
+                currentPage: currentPage || 1,
+                totalItems: totalItems || 0 
+            }">
+                <app-empolyee 
+                    [employee]="emp" 
+                    (employeeDeleted)="getSomeEmployees(currentPage || 1, pageSize || 4)"
+                ></app-empolyee>
+            </div>
+        </div>
+
+        <div class="empty-state glass-effect" *ngIf="!employees || employees.length === 0">
+            <i class="fas fa-users-slash"></i>
+            <h3>No Employees Found</h3>
+            <p>Start by adding your first employee</p>
+            <button class="add-btn gradient-btn" routerLink="/add">
+                <i class="fa-solid fa-user-plus"></i>
+                <span>Add First Employee</span>
+            </button>
+        </div>
+    </main>
+
+    <footer class="pagination-section glass-effect">
+        <pagination-controls
+            id="EmpPaginate"
+            (pageChange)="pageChanged($event)"
+            (pageBoundsCorrection)="pageChanged($event)"
+            [maxSize]="9"
+            [directionLinks]="true"
+            [autoHide]="true"
+            [responsive]="true"
+            previousLabel="Previous"
+            nextLabel="Next">
+        </pagination-controls>
+    </footer>
+</div>

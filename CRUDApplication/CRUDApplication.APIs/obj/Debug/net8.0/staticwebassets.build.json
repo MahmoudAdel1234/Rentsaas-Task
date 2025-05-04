@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZWv6AiwLigZgWLNUUwDyyEkVOtEi05d2iBlkOuT4I4w=",
+  "Source": "CRUDApplication.APIs",
+  "BasePath": "_content/CRUDApplication.APIs",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

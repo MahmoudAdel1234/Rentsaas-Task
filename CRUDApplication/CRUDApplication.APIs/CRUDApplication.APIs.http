@@ -1,0 +1,6 @@
+@CRUDApplication.APIs_HostAddress = http://localhost:5072
+
+GET {{CRUDApplication.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

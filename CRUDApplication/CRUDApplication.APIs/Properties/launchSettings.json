@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "CRUDApplication.APIs": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://employeecrudsystem.runasp.net/api",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://employeecrudsystem.runasp.net/api"
+      }
+    }
+  }
+}

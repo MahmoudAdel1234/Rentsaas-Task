@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.ngx-pagination .current {
+    padding: .1875rem .625rem;
+    border-radius: 50%;
+    background: #2199e8;
+    color: #fefefe;
+    cursor: default;
+}
+
+
+.pagination-next a{
+    text-decoration: none;
+}
+
+.pagination-previous a {
+    text-decoration: none;
+
+}
+
+.W-50{
+    width: 55%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .W-50{
+        width: 90%;
+    }
+}
